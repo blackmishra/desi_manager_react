@@ -9,7 +9,7 @@ export default function Home({ posts }) {
     <main>
       <div className="container mx-auto px-10 mb-8 bg-gray-300">
         <Head>
-          <title>Desi Manager</title>
+          <title>देसी मैनेजर</title>
           <link rel="icon" href="/favicon.ico" />
 
         </Head>

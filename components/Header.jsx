@@ -1,4 +1,4 @@
-import React, { useEffect, useState , useContext } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import Link from 'next/link';
 import { getCategories } from '@/services'
 
@@ -16,7 +16,7 @@ const Header = () => {
                 <div className='md:float-left block'>
                     <Link href="/" >
                         <span className='cursor-pointer font-bold text-4xl'>
-                            Desi Manager
+                            देसी मैनेजर
                         </span>
                     </Link>
                 </div>
