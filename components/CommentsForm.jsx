@@ -70,7 +70,7 @@ const CommentsForm = ({ slug }) => {
       <div className="grid grid-cols-1 gap-4 mb-4">
         <div>
           <input ref={storeDataEl} type="checkbox" id="storeData" name="storeData" value="true" />
-          <label className="text-gray-500 cursor-pointer" htmlFor="storeData"> नाम और ईमेल सुरक्षित करे</label>
+          <label className="text-gray-500 cursor-pointer" htmlFor="storeData"> नाम और ईमेल भविष्य के लिए सुरक्षित करे</label>
         </div>
       </div>
       {error && <p className="text-xs text-red-500">All fields are mandatory</p>}
